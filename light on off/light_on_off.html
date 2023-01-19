@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb on off</title>
+    <style>
+        *{
+            background-color:rgb(211, 230, 223) ;
+          
+        }
+        .container{
+            margin: 5px;
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 10%;
+        
+            /* background-color: aquamarine; */
+        }
+        img{
+            width: 15%;
+            /* background: transparent; */
+            background-color: rgb(211, 230, 223);
+        }
+        button{
+            width: 10%;
+            font-size: 20px;
+            background-color: rgb(173, 153, 190);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>can light on off</h1>
+        <button onclick="document.getElementById('myimg').src='./img/onlight.png'" >on light </button>
+        <img src="./img/offlight.png" alt="off img" id="myimg">
+        <button onclick="document.getElementById('myimg').src='./img/offlight.png'">off light</button>
+    </div>
+</body>
+</html>
